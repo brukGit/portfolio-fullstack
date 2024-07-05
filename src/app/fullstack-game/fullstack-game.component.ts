@@ -10,29 +10,31 @@ import { BackToTopComponent } from '../back-to-top/back-to-top.component';
     <section class="fullstack-game">
       <h2>Fullstack Game Project</h2>
       <p>
-        Leveraging my skills in both frontend and backend development, I've created an engaging fullstack game.
+        Leveraging my skills in both frontend and backend development, I've created a simple and engaging fullstack game.
         This project showcases my ability to build interactive, real-time applications using modern web technologies.
       </p>
-      <a href="https://your-game-url.com" target="_blank" class="cta-button">Play the Game</a>
+      <p class="sub-note">Technologies used - React Js | Framer Motion | Express Js | MongoDB | Node Js | Figma</p>
+      <a href="https://connect-four-pz-designs.onrender.com/" target="_blank" class="cta-button">Play the Game</a>
       <app-back-to-top></app-back-to-top>
     </section>
   `,
   styles: [`
     .fullstack-game {
-      margin-top: 2rem;
-      background-color: #f0e6ff;
+      background-color: #E8E8F3;
       padding: 2rem;
-      border-radius: 8px;
+      border-radius: 8px auto;
+      text-align: left;
+      gap: 1rem;
+      width: 80%;
+      margin: 0 auto;
+      color: #2C3E50;
+      position: relative;
     }
-    .cta-button {
-      display: inline-block;
-      background-color: #6c757d;
-      color: white;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 1rem;
-    }
+   
+    .sub-note{
+      font-weight:500;
+    
+     }
   `]
 })
 export class FullstackGameComponent {}

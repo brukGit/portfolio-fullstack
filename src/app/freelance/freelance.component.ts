@@ -14,26 +14,32 @@ import { BackToTopComponent } from '../back-to-top/back-to-top.component';
         office software solutions, and AI consultancy. My goal is to provide tailored, innovative solutions
         to meet the unique needs of each client.
       </p>
+      <p>You will find more portolio projects at the website.</p>
+      <p class="sub-note">Technologies used - React Js | Framer Motion | Express Js | MongoDB | Node Js | Figma</p>
       <a href="https://www.brosfe.com" target="_blank" class="cta-button">Visit brosfe.com</a>
       <app-back-to-top></app-back-to-top>
     </section>
   `,
   styles: [`
     .freelance {
-      margin-top: 2rem;
-      background-color: #e6f2ff;
+      width: 80vw;
+      margin:4rem auto;
+      textalign: left;
+      background-color: #3A4F8B;
       padding: 2rem;
-      border-radius: 8px;
+      text-align: left;
+      gap: 1rem;
+      width: 80%;
+      margin: 0 auto;
+      color: #f5f5f5;
+      position: relative;
+      align-items: center;
     }
-    .cta-button {
-      display: inline-block;
-      background-color: #007bff;
-      color: white;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 1rem;
+    
+    .sub-note {
+      font-weight: bold;
     }
+    
   `]
 })
 export class FreelanceComponent {}
