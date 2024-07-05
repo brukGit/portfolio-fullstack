@@ -1,0 +1,9 @@
+ng build --configuration=production --base-href="https://brukGit.github.io/portfolio-fullstack/"
+
+
+npx angular-cli-ghpages --dir=dist/portfolio
+
+
+https://brukGit.github.io/portfolio-fullstack/
+
+
