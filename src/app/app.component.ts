@@ -36,7 +36,9 @@ import {SkillsComponent} from "./skills/skills.component";
       
     </main>
     <footer>
+    <p class="note">This Portfolio was built using Angular Js and Sass.</p>
       <p>&copy; 2024 Biruke Abraha. All rights reserved.</p>
+     
     </footer>
   `,
   styles: [`
@@ -85,6 +87,15 @@ import {SkillsComponent} from "./skills/skills.component";
       color: #1F3A93;
       text-align: center;
       padding: 1rem;
+    }
+    .note{
+      color: #f5f5f5; 
+      background-color: #1F3A93;
+      width: 50%; 
+      margin: auto;
+      padding: 1rem;
+      justify-content: center;
+      align-items: center;
     }
   `]
 })
