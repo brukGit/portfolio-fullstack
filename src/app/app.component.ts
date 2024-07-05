@@ -36,7 +36,7 @@ import {SkillsComponent} from "./skills/skills.component";
       
     </main>
     <footer>
-    <p class="note">This Portfolio was built using Angular Js and Sass.</p>
+    <p class="note">I built this single page portfoio using Angular Js and Sass.</p>
       <p>&copy; 2024 Biruke Abraha. All rights reserved.</p>
      
     </footer>
