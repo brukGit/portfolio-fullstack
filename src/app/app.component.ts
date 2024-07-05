@@ -21,7 +21,7 @@ import {SkillsComponent} from "./skills/skills.component";
         <a href="#dashboard">Dashboard</a>
         <a href="#freelance">Freelance</a>
         <a href="#fullstack-game">Fullstack Game</a>
-        <a href="#skills">Skills</a>
+        <a href="#skills">Software Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
