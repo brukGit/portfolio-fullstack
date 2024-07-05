@@ -24,7 +24,7 @@ import { BackToTopComponent } from '../back-to-top/back-to-top.component';
     .freelance {
       width: 80vw;
       margin:4rem auto;
-      textalign: left;
+      text-align: left;
       background-color: #3A4F8B;
       padding: 2rem;
       text-align: left;

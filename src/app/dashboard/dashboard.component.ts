@@ -28,7 +28,7 @@ import { BackToTopComponent } from '../back-to-top/back-to-top.component';
      
       width: 80vw;
       margin:4rem auto;
-      textalign: left;
+      text-align: left;
       background-color: #E8E8F3;
       padding: 2rem;
       border-radius: auto 8px;
