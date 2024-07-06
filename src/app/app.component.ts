@@ -89,11 +89,14 @@ import {SkillsComponent} from "./skills/skills.component";
       padding: 1rem;
     }
     .note{
-      color: #f5f5f5; 
-      background-color: #1F3A93;
+      // color: #f5f5f5; 
+      // background-color: #1F3A93;
+      font-size: 0.9rem;
+      font-style: italic;
+
       width: 50%; 
       margin: auto;
-      padding: 1rem;
+      padding: 0 1rem;
       justify-content: center;
       align-items: center;
     }
